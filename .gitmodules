@@ -1,0 +1,3 @@
+[submodule "bela-data-logger"]
+	path = bela-data-logger
+	url = https://github.com/pelinski/bela-data-logger
