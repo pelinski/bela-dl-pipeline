@@ -1,3 +1,15 @@
-[submodule "1-bela_data-recording/bela-data-logger"]
-	path = 1-bela_data-recording/bela-data-logger
+[submodule "bela-data-logger"]
+	path = 1-bela_data-recording
 	url = git@github.com:pelinski/bela-data-logger.git
+[submodule "bela-data-syncer"]
+	path = 2-host_data-processing
+	url = git@github.com:pelinski/bela-data-syncer.git
+[submodule "xc-bela-container"]
+	path = 4-host_cross-compilation
+	url = https://github.com/pelinski/xc-bela-container
+[submodule "sensor-data-forecasting"]
+	path = 3-host_model-training
+	url = git@github.com:pelinski/sensor-data-forecasting.git
+[submodule "bela-sensor-data-forecasting"]
+	path = 5_bela-model_inference
+	url = git@github.com:pelinski/bela-sensor-data-forecasting.git
